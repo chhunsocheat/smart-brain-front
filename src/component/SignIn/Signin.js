@@ -26,10 +26,10 @@ class Signin extends React.Component{
       })
     })
     .then(res=>res.json())
-    .then(data=>{
-      if(data==="success"){
+    .then(user=>{
+      if(user.id){
         this.props.onRouteChange('home')
-        this.props.loadUser(data);
+        this.props.loadUser(user);
         console.log("Valid Username")
       }else{
         alert("Invalid User")

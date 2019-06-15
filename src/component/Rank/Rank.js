@@ -8,6 +8,7 @@ const Rank = ({name,entries}) =>{
            <div className="white f1">
             {`${entries}`}
            </div>
+           
         </div>
     )
 }

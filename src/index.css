@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier , monospace;
-  background: linear-gradient(90deg,#c56767, #616acf 100%);
+  background: linear-gradient(90deg,#0bd35ec5,#5f6accb6 100%);
 }
 
 code {
